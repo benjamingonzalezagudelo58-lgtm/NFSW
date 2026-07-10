@@ -4,22 +4,14 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100vh; 
+    min-height: 100vh; /* Para centrar también verticalmente en la pantalla */
     margin: 0;
-    font-family: sans-serif; 
-    background-color: #f0f0f0; 
+    font-family: sans-serif; /* Un tipo de letra más moderno */
+    background-color: #f0f0f0; /* Un color de fondo suave */
 }
 
+/* Para que las imágenes no se salgan de la pantalla en celulares */
 img {
     max-width: 100%;
     height: auto;
-}
-background-color: black;
-color: slategray;
-font-family: sans-serif;
-
-
-h1 {
-color: yellow;
-text-align: center;
 }
